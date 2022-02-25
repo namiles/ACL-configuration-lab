@@ -13,3 +13,7 @@ ip access-list extended extended_local_ACL
   deny ip 10.1.1.0 0.0.0.255 172.16.1.0 0.0.0.255
   permit ip 10.1.1.0 0.0.0.255 any
 ```
+
+### ACL Placement
+"extended_local_ACL" should be applied inbound on R1's GigabitEthernet0/1 interface.   
+ACL "150" should be applied inbounc on R1's GigabitEthernet0/0 interface.
