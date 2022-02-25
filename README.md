@@ -3,6 +3,19 @@ This repository contains device configurations for my ACL configuration CCNA lab
 
 ## Standard ACLs
 
+### R1
+```
+
+```
+
+### R2
+```
+
+```
+### R3
+```
+
+```
 
 ## Extended ACLs
 ### R1
