@@ -5,20 +5,26 @@ This repository contains device configurations for my ACL configuration CCNA lab
 
 ### R1
 ```
+access-list 60 deny host 10.1.2.10
+access-list 60 permit any
 
+interface GigabitEthernet0/1
+  ip access-group 60 out
 ```
 
-### R2
-```
-
-```
 ### R3
 ```
+access-list 50 deny 10.1.1.0 0.0.0.255
+access-list 50 permit any
 
+interface GigabitEthernet0/0
+  ip access-group 50 out
 ```
 
 ### ACL Placement
-
+Standard ACLs should be placed as close to the destination as possible:   
+ACL 50 should be replaced on R3's GigabitEthernet0/0 interface.
+ACL 60 should be replaced on R1's GigabitEthernet0/1 interface.
 
 ## Extended ACLs
 ### R1
