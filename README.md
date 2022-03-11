@@ -1,3 +1,5 @@
+![banner](https://github.com/namiles/ACL-configuration-lab/blob/main/access-lists-featured-image.png?raw=true)
+
 # ACL Configuration Lab
 This repository contains device configurations for my ACL configuration CCNA lab, which can be found [here.](#) More free CCNA labs are available at https://nicksnetworklab.com.   
 
