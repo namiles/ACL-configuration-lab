@@ -41,7 +41,7 @@ ip access-list extended extended_local_ACL
 ```
 ```
 access-list 150 permit tcp any 10.1.1.0 0.0.0.255 established
-access-list 150 permit tcp any 172.16.1.0 0.0.0.255 eq www
+access-list 150 permit tcp any 172.16.1.0 0.0.0.255 eq 80
 access-list 150 permit tcp any 172.16.1.0 0.0.0.255 eq 443
 access-list 150 permit udp host 173.20.1.1 eq domain 10.1.1.0 0.0.0.255
 access-list 150 deny ip 173.20.1.0 0.0.0.255 10.1.1.0 0.0.0.255
